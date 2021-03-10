@@ -1,9 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Mar 10 20:48:59 2021
+#Simple Linear Regression
 
-@author: egeme
-"""
 
 import numpy as np
 import pandas as pd
