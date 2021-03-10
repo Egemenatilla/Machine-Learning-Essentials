@@ -10,12 +10,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 #Read data from csv file and create a data frame
-datas = pd.read_csv('satislar.csv')
-print(datas)
+data = pd.read_csv('satislar.csv')
+print(data)
 
 #Separate the columns
-months = datas[['Aylar']]
-sales = datas[['Satislar']]
+months = data[['Aylar']]
+sales = data[['Satislar']]
 print(months)
 print(sales)
 
