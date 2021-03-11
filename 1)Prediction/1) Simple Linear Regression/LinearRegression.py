@@ -35,12 +35,9 @@ lr.predict(x_test)
 x_train = x_train.sort_index()
 y_train = y_train.sort_index()
 
-# plt.plot(x_train,y_train)
-# plt.show()
 plt.scatter(x_train,y_train,color = 'red')
 plt.plot(x_test,lr.predict(x_test),color = 'blue')
 
 plt.title('Sales by month')
 plt.xlabel('Months')
 plt.ylabel('Sales')
-
