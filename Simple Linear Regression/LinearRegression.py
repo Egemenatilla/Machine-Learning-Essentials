@@ -36,9 +36,11 @@ x_train = x_train.sort_index()
 y_train = y_train.sort_index()
 
 plt.plot(x_train,y_train)
+#plt.scatter(x_train,y_train) #if you want to show the graph with scatter plot. Use this line and #43. Instead of #38,#42.
 plt.show()
 
 plt.plot(x_test,lr.predict(x_test))
+#plt.plot(x_test,lr.predict(x_test),color='orange')
 
 plt.title('Sales by month')
 plt.xlabel('Months')
