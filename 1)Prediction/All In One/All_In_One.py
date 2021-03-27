@@ -93,37 +93,3 @@ plt.title("Random Forest")
 plt.show()
 
 print("Random Forest R2 Score: ",r2_score(y_train,rf_pred))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
