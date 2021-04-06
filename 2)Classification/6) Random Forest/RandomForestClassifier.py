@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Apr  1 21:47:26 2021
-
-@author: egeme
-"""
-
 # Libraries
 import numpy as np
 import pandas as pd
