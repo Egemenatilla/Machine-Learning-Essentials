@@ -33,7 +33,7 @@ y_pred = rfc.predict(X_test)
 
 # Confusion Matrix
 from sklearn.metrics import confusion_matrix
-
 cm = confusion_matrix(y_test,y_pred)
+
 print('RFC')
 print(cm)
