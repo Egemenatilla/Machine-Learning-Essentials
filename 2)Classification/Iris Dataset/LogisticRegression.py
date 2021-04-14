@@ -11,7 +11,6 @@ y = data.iloc[:,5:]
 
 # Standardization
 from sklearn.preprocessing import StandardScaler
-
 sc = StandardScaler()
 x = sc.fit_transform(x)
 
