@@ -1,7 +1,6 @@
 # Libraries
-import numpy as np # linear algebra
+import numpy as np 
 import pandas as pd 
-
 
 # Read data from csv
 data = pd. read_csv('Iris.csv')
@@ -11,7 +10,6 @@ x = data.iloc[:,1:5]
 y = data.iloc[:,5:]
 
 # Label Encoding for "Species" column
-
 from sklearn.preprocessing import LabelEncoder
 lb = LabelEncoder()
 y = lb.fit_transform(y)
@@ -38,4 +36,3 @@ cm
 # Accuracy
 accuracy = accuracy_score(y_test, y_pred)*100
 print('Accuracy: %',accuracy)
-
