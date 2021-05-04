@@ -39,3 +39,4 @@ y_pred = knn.predict(X_test)
 from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(y_test,y_pred)
 print(cm)
+print("Accuracy: %",accuracy_score(y_test,y_pred)*100)
