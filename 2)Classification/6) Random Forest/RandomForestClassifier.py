@@ -37,3 +37,6 @@ cm = confusion_matrix(y_test,y_pred)
 
 print('RFC')
 print(cm)
+
+# Accuracy
+print("Accuracy: %",accuracy_score(y_test, y_pred)*100)
